@@ -72,6 +72,11 @@ export default function App() {
             component={BookRideScreen}
             options={{ title: 'Book a Ride' }}
           />
+                    <Stack.Screen 
+            name="RideHistory" 
+            component={RideHistoryScreen}
+            options={{ title: 'See your history' }}
+          />
           <Stack.Screen 
             name="Feedback" 
             component={FeedbackScreen}
